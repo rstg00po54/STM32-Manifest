@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/rstg00po54/" />
+
+  <default
+    remote="github"
+    revision="refs/heads/main"
+    sync-j="4" />
+
+  <project
+    name="STM32-Board-F429-FANKE"
+    path="boards/F429-FANKE"
+    groups="stm32f4" />
+
+  <project
+    name="STM32-Board-H723-WeAct"
+    path="boards/H723-WeAct"
+    groups="stm32h7" />
+
+  <project
+    name="STM32-Board-H750-WeAct"
+    path="boards/H750-WeAct"
+    groups="stm32h7" />
+
+  <project
+    name="STM32-Board-H743-FANKE-M2"
+    path="boards/H743-FANKE-M2"
+    groups="stm32h7" />
+</manifest>
